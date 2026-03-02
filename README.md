@@ -9,7 +9,7 @@ This repository contains the ddRAD analysis of three *Ectopleura* populations fo
 3. Trimm Adapters using Trimmommatic
 4. Run FastQC to assess quality of reads
 5. Run MASH to assess genetic distances between samples
-6. Run Stacks2 Core pipeline (ustacks, cstacks, sstacks, tsv2bam, gstacks)
+6. Run Stacks2 Core pipeline with de novo assembly (ustacks, cstacks, sstacks, tsv2bam, gstacks)
 7. Run populations from Stacks2 to export genotype data to vcf and plink formats
 8. Run PLINK to QC the genotype data
    - calc missing rate

@@ -11,9 +11,9 @@ The overarching hypothesis of my PRFB work is: Distinct populations of *E. croce
     
   - A ddRAD pop gen study to examine the population structure and genetic variation across locations *(data in this repository)*
     
-  - I'm currently sequencing the genome to aid in the ddRAD analysis *(data coming soon)*
+  - I'm currently sequencing the genome to aid in the ddRAD analysis *(data coming soon)*    
     
-*All samples across all studies were collected on the same day*
+*All samples across all studies were collected on the same day*    
 
 This ddRAD study is assessing the population genomics of *E.crocea* to assess if genetic variation is present across populations and if its consitent with local adaptation. I have sequenced 12 individuals from each location (CML: New Castle NH; York ME; Wells ME). 
 

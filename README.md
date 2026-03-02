@@ -1,4 +1,4 @@
-# *Ectopleura* Population Genetic Study - Overview
+# *Ectopleura* Population Genomics Study - Overview
 This repository contains the ddRAD analysis of three *Ectopleura* populations for my NSF PRFB study. This repository also includes the code for the behavioral analysis and the correlational analysis. 
 
 ## Study Info and Sample structure

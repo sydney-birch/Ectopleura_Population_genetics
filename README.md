@@ -5,7 +5,7 @@ This repository contains the ddRAD analysis of three *Ectopleura* populations fo
 The overarching hypothesis of my PRFB work is: Distinct populations of *E. crocea* larvae are locally adapted to specfic biofilms, where larvae are cueing in on adult-associated microbes. 
 
 <ins>To examine this I have conducted: </ins>
-  - A recipricol transplant larval settlement study to examine the settlement phenotype across 3 locations/populations in the Gulf of Maine *(data in this repository)*
+  - A reciprocal transplant larval settlement study to examine the settlement phenotype across 3 locations/populations in the Gulf of Maine *(data in this repository)*
     
   - A metagenomics study examining the biofilm from each location and Adult-Associated Microbes from polyps (adults) from each location *(analyses in [sydney-birch/Ectopleura_metagenomics repository](https://github.com/sydney-birch/Ectopleura_metagenomics)*
     

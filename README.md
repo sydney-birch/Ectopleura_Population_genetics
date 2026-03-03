@@ -5,11 +5,11 @@ This repository contains the ddRAD analysis of three *Ectopleura* populations fo
 The overarching hypothesis of my PRFB work is: Distinct populations of *E. crocea* larvae are locally adapted to specfic biofilms, where larvae are cueing in on adult-associated microbes. 
 
 <ins>To examine this I have conducted: </ins>
-  - A reciprocal transplant larval settlement study to examine the settlement phenotype across 3 locations/populations in the Gulf of Maine *(data in this repository)*
+  - A reciprocal transplant larval settlement study to examine the settlement phenotype across 3 locations/populations in the Gulf of Maine *(data in this repository [larval_settlement](https://github.com/sydney-birch/Ectopleura_Population_genetics/tree/main/larval_settlement))*
     
   - A metagenomics study examining the biofilm from each location and Adult-Associated Microbes from polyps (adults) from each location *(analyses in [sydney-birch/Ectopleura_metagenomics repository](https://github.com/sydney-birch/Ectopleura_metagenomics)*
     
-  - A ddRAD pop gen study to examine the population structure and genetic variation across locations *(data in this repository)*
+  - A ddRAD pop gen study to examine the population structure and genetic variation across locations *(data in this repository [ddRAD_scripts](https://github.com/sydney-birch/Ectopleura_Population_genetics/tree/main/ddRAD_scripts))*
     
   - I'm currently sequencing the genome to aid in the ddRAD analysis *(data coming soon)*    
     
@@ -17,7 +17,7 @@ The overarching hypothesis of my PRFB work is: Distinct populations of *E. croce
 
 This ddRAD study is assessing the population genomics of *E.crocea* to assess if genetic variation is present across populations and if its consitent with local adaptation. I have sequenced 12 individuals from each location (CML: New Castle NH; York ME; Wells ME). The ddRAD analysis with all scripts and pipeline can be found in: ddRAD_scripts. 
 
-## Overview of Pipeline: 
+## Overview of ddRAD Pipeline: 
 1. Download data and prep work (count reads)
 2. Demultiplex reads using Stacks2
 3. Trimm Adapters using Trimmommatic

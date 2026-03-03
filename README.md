@@ -7,7 +7,7 @@ The overarching hypothesis of my PRFB work is: Distinct populations of *E. croce
 <ins>To examine this I have conducted: </ins>
   - A reciprocal transplant larval settlement study to examine the settlement phenotype across 3 locations/populations in the Gulf of Maine *(data in this repository: [larval_settlement](https://github.com/sydney-birch/Ectopleura_Population_genetics/tree/main/larval_settlement))*
     
-  - A metagenomics study examining the biofilm from each location and Adult-Associated Microbes from polyps (adults) from each location *(data in [Ectopleura_metagenomics/metagenomics_scripts repository](https://github.com/sydney-birch/Ectopleura_metagenomics)*
+  - A metagenomics study examining the biofilm from each location and Adult-Associated Microbes from polyps (adults) from each location *(data in [Ectopleura_metagenomics/metagenomics_scripts](https://github.com/sydney-birch/Ectopleura_metagenomics) repository*
     
   - A ddRAD pop gen study to examine the population structure and genetic variation across locations *(data in this repository: [ddRAD_scripts](https://github.com/sydney-birch/Ectopleura_Population_genetics/tree/main/ddRAD_scripts))*
     

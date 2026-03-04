@@ -149,22 +149,22 @@ populations -P ./stack_outputs --popmap ./popmaps/popmap4 -p 3 -r 0.75 -f p_valu
 following plink tutorial: https://cloufield.github.io/GWASTutorial/04_Data_QC/#qc-step-summary
 
 A) Calculate sample missing rate and SNP missing rate
-3.B_plink_missing_rate.slurm `plink --bfile snps --missing --out plink_results --allow-extra-chr` 
+3.A_plink_missing_rate.slurm `plink --bfile snps --missing --out plink_results --allow-extra-chr` 
 
 B) Calculate allele frequency 
-3.C_MAF.slurm `plink --bfile snps --freq --out plink_results --allow-extra-chr`   
+3.B_MAF.slurm `plink --bfile snps --freq --out plink_results --allow-extra-chr`   
 
 C) Calculate HWE (Variants with low P value usually suggest genotyping errors, or indicate evolutionary selection for these variants)
-3.D_HWE.slurm `plink --bfile snps --hardy --out plink_results --allow-extra-ch`
+3.C_HWE.slurm `plink --bfile snps --hardy --out plink_results --allow-extra-ch`
 
 D) Apply filters - filter out low quality SNPS and Linkage disequlibrium SNPs
-3.E_LD_filt.slurm: `plink --bfile snps --maf 0.01 --geno 0.02 --mind 0.02 --hwe 1e-6 --indep-pairwise 50 5 0.2 --out plink_results --allow-extra-chr`
+3.D_LD_filt.slurm: `plink --bfile snps --maf 0.01 --geno 0.02 --mind 0.02 --hwe 1e-6 --indep-pairwise 50 5 0.2 --out plink_results --allow-extra-chr`
 
 E) Check heterozygosity
-3.F_hetroz.slurm: `plink --bfile snps --extract ./plink_results/plink_results.prune.in --het --out plink_results --allow-extra-chr`
+3.E_hetroz.slurm: `plink --bfile snps --extract ./plink_results/plink_results.prune.in --het --out plink_results --allow-extra-chr`
 
 F) Convert filtered data into a bed file:
-3.G_convert_file.slurm: `plink --bfile snps --extract ./plink_results/plink_results.prune.in --make-bed --out plink_pruned --allow-extra-chr`
+3.F_convert_file.slurm: `plink --bfile snps --extract ./plink_results/plink_results.prune.in --make-bed --out plink_pruned --allow-extra-chr`
 
 
 
